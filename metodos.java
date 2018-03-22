@@ -4,6 +4,7 @@ public class metodos {
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
+		ascii();
 	}
 
 	// metodo para invertir un numero
@@ -61,4 +62,13 @@ public class metodos {
 		return decimal;
 	}
 
+	// Generar codigo ascii
+	
+	public static void ascii() {
+		for (int i = 0; i < 128; i++) {
+			char c = (char)(i);
+			System.out.println(i + " " + c);
+		}
+		System.out.println((char)92+"/");
+	}
 }
