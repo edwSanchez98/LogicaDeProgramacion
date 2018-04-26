@@ -52,10 +52,14 @@ public class AsciiAddition {
 		while (sc.hasNext()) {
 			String[][] datosLeidos = { { sc.nextLine() }, { sc.nextLine() }, { sc.nextLine() }, { sc.nextLine() },
 					{ sc.nextLine() }, { sc.nextLine() }, { sc.nextLine() } };
-			for (int i = 0; i < datosLeidos.length/5; i++) {
-				String[][] nueva = new [7][5];
+			System.out.println(datosLeidos.length);
+			for (int i = 1; i < datosLeidos.length-1; i++) {
 				for (int j = 0; j < 5; j++) {
-					nueva[0][j]=
+					String [][]temp = new String[7][5];
+					temp[i-1][j]=datosLeidos[i-1][j];
+				}
+				if(i%5==0) {
+					
 				}
 			}
 		}		

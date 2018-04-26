@@ -71,4 +71,6 @@ public class metodos {
 		}
 		System.out.println((char)92+"/");
 	}
+	
+	
 }
